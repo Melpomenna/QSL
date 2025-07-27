@@ -1,0 +1,2 @@
+Checks: '*, -clang-analyzer-*'  # Включает все проверки, кроме анализатора clang
+WarningsAsErrors: '*'

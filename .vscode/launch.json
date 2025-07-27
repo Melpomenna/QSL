@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(ctest) Launch Debug Windows",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build Debug",
+            "program": "${workspaceFolder}/build/debug/WorkFolder/Tests.exe",
+            "externalConsole": true
+        },
+                {
+            "name": "(ctest) Launch Release Windows",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build Release",
+            "program": "${workspaceFolder}/build/release/WorkFolder/Tests.exe",
+            "externalConsole": true
+        },
+        {
+            "name": "(Benchmarks) Launch Debug Windows",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build Debug",
+            "program": "${workspaceFolder}/build/debug/WorkFolder/Benchmarks.exe",
+            "externalConsole": true
+        },
+                {
+            "name": "(Benchmarks) Launch Release Windows",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build Release",
+            "program": "${workspaceFolder}/build/release/WorkFolder/Benchmarks.exe",
+            "externalConsole": true
+        }
+    ]
+}
